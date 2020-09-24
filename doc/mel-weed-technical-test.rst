@@ -51,20 +51,22 @@ The following procedure involves using a phone or tablet with nRF Connect for mo
         The discovered devices list doesn't automatically refresh when devices stop advertising. If you can't connect to a device from the list, refresh the list to see if the device is still available. 
 
 #.	Expand the **Secure DFU Service** section. There are two icons to the right of **DFU Control Point**:
+
   a. Check (x) the box to turn notifications **on**.
+
   b. Check (x) the box to the left to set the device to **bootloader (DFU)** mode. 
 
 #. Click **OK** when prompted to reset the device to bootloader. 
                                       
-.. image:: images/Picture1.png
-    :alt: Activating DFU mode
+    .. image:: _images/Picture1.png
+        :alt: Activating DFU mode
     
-    Activating DFU mode
+        Activating DFU mode
 
-.. image:: images/Picture3.png
-    :alt: Restarting device in DFU mode
+    .. image:: _images/Picture3.png
+        :alt: Restarting device in DFU mode
 
-    Restarting device in DFU mode
+        Restarting device in DFU mode
 
 The device now enters DFU mode. 
 
@@ -76,10 +78,10 @@ The device now enters DFU mode.
 
 #. Click the DFU icon. 
 
-.. image:: images/Picture4.png
-    :alt:Running DFU
+    .. image:: _images/Picture4.png
+        :alt:Running DFU
 
-    Running DFU
+        Running DFU
 
 #. Select **Distribution packet (ZIP)**.
 
@@ -87,9 +89,9 @@ The device now enters DFU mode.
 
 #. Click **OK**.
 
-.. image:: images/Picture5.png
-    :alt: Selecting the package
+    .. image:: _images/Picture5.png
+        :alt: Selecting the package
 
-    Selecting the package
+        Selecting the package
 
 The package is now uploaded to the device.
