@@ -68,7 +68,7 @@ The following procedure involves using a phone or tablet with nRF Connect for mo
 
         Restarting device in DFU mode
 
-The device now enters DFU mode. 
+    The device now enters DFU mode. 
 
 7. Go to the **Scanner** tab and run a new scan. A device with ``<name>DFU`` appears in the list of discovered devices. 
 
@@ -94,4 +94,4 @@ The device now enters DFU mode.
 
         Selecting the package
 
- The package is now uploaded to the device.
+    The package is now uploaded to the device.
