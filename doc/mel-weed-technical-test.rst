@@ -1,8 +1,8 @@
 ===================================
-Upgrade with nRF Connect for Mobile
+Updating firmware with nRF Connect for Mobile
 ===================================
 
-This page explains how to upgrade a device's firmware using `nRF Connect for Mobile <https://www.nordicsemi.com/eng/Products/Nordic-mobile-Apps/nRF-Connect-for-mobile-previously-called-nRF-Master-Control-Panel>`_.
+This page explains how to update a device's firmware using `nRF Connect for Mobile <https://www.nordicsemi.com/eng/Products/Nordic-mobile-Apps/nRF-Connect-for-mobile-previously-called-nRF-Master-Control-Panel>`_.
 
 
 Overview
@@ -21,38 +21,40 @@ Overview
 Provide your public key
 ----------------------
 
-Before a **device firmware upgrade** (DFU), you must prepare your device by replacing the existing bootloader with one that uses your own public key.
+Before a **device firmware update** (DFU), you must prepare your device by replacing the existing bootloader with one that uses your own public key.
 
 Copy the ``public_key.c`` file from where you generated it to ``<InstallFolder>\project\bootloader_secure\dfu_public_key.c``.
+
 
 Prepare the bootloader
 ----------------------
 
-1.	Build a new bootloader by compiling the Bootloader project using either Keil μVision or GCC. 
+1.	Compile a new bootloader using either Keil μVision or GCC. 
 
-1. Flash the compiled bootloader to the device. Remember to program the Softdevice as well.
+#. Flash the compiled bootloader to the device. Remember to program the Softdevice as well.
+
 
 Run DFU
 -------
 
 The following procedure involves using a phone or tablet with nRF Connect for mobile installed to run DFU:
 
-1.	Transfer the DFU zip package to your phone.
+#.	Transfer the DFU zip package to your phone.
 
-1.	Power on the device. 
+#.	Power on the device. 
 
-1.  Open nRFConnect on your phone.
+#.  Open nRFConnect on your phone.
 
-1.	Click **Scan**. From the available discovered devices, connect to your device. 
+#.	Click **Scan**. From the available discovered devices, connect to your device. 
 
     .. note::
         The discovered devices list doesn't automatically refresh when devices stop advertising. If you can't connect to a device from the list, refresh the list to see if the device is still available. 
 
-1.	Expand the **Secure DFU Service** section. There are two icons to the right of **DFU Control Point**:
+#.	Expand the **Secure DFU Service** section. There are two icons to the right of **DFU Control Point**:
   a. Check (x) the box to turn notifications **on**.
   b. Check (x) the box to the left to set the device to **bootloader (DFU)** mode. 
 
-1. Click **OK** when prompted to reset the device to bootloader. 
+#. Click **OK** when prompted to reset the device to bootloader. 
                                       
 .. image:: images/Picture1.png
     :alt: Activating DFU mode
@@ -66,24 +68,24 @@ The following procedure involves using a phone or tablet with nRF Connect for mo
 
 The device now enters DFU mode. 
 
-1. Go to the **Scanner** tab and run a new scan. A device with ``<name>DFU`` appears in the list of discovered devices. 
+#. Go to the **Scanner** tab and run a new scan. A device with ``<name>DFU`` appears in the list of discovered devices. 
 
-1. Choose your device.
+#. Choose your device.
 
-1. Connect to the new device. 
+#. Connect to the new device. 
 
-1. Click the DFU icon. 
+#. Click the DFU icon. 
 
 .. image:: images/Picture4.png
     :alt:Running DFU
 
     Running DFU
 
-1. Select **Distribution packet (ZIP)**.
+#. Select **Distribution packet (ZIP)**.
 
-1. Navigate to the package that you previously uploaded to your mobile device.
+#. Navigate to the package that you previously uploaded to your mobile device.
 
-1. Click **OK**.
+#. Click **OK**.
 
 .. image:: images/Picture5.png
     :alt: Selecting the package
