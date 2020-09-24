@@ -8,10 +8,14 @@ Overview
 --------
 
 1. _`Provide your public key`.
+
 1. _`Prepare the bootloader`.
+
 1. _`Run DFU`. 
  
+
 ********
+
 
 Provide your public key
 ----------------------
@@ -24,6 +28,7 @@ Prepare the bootloader
 ----------------------
 
 1.	Build a new bootloader by compiling the Bootloader project using either Keil μVision or GCC. 
+
 1. Flash the compiled bootloader to the device. Remember to program the Softdevice as well.
 
 Run DFU
@@ -32,24 +37,28 @@ Run DFU
 The following procedure involves using a phone or tablet with nRF Connect for mobile installed to run DFU:
 
 1.	Transfer the DFU zip package to your phone.
+
 1.	Power on the device. 
+
 1.  Open nRFConnect on your phone.
+
 1.	Click **Scan**. From the available discovered devices, connect to your device. 
 
     .. note:: Note:
         The discovered devices list doesn't automatically refresh when devices stop advertising. If you can't connect to a device from the list, refresh the list to see if the device is still available. 
 
 1.	Expand the **Secure DFU Service** section. There are two icons to the right of **DFU Control Point**:
-    a. Check (x) the box to turn notifications **on**.
-    b. Check (x) the box to the left to set the device to **bootloader (DFU)** mode. 
+  a. Check (x) the box to turn notifications **on**.
+  b. Check (x) the box to the left to set the device to **bootloader (DFU)** mode. 
+
 1. Click **OK** when prompted to reset the device to bootloader. 
                                       
-.. image:: ../doc/images/Picture1.png
+.. image:: images/Picture1.png
     :alt: Activating DFU mode
     
     Activating DFU mode
 
-.. image:: ../doc/images/Picture3.png
+.. image:: images/Picture3.png
     :alt: Restarting device in DFU mode
 
     Restarting device in DFU mode
@@ -61,7 +70,7 @@ The device now enters DFU mode.
 1. Connect to the new device. 
 1. Click the DFU icon. 
 
-.. image:: ../doc/images/Picture4.png
+.. image:: images/Picture4.png
     :alt:Running DFU
 
     Running DFU
@@ -70,7 +79,7 @@ The device now enters DFU mode.
 1. Navigate to the package that you previously uploaded to your mobile device.
 1. Click **OK**.
 
-.. image:: ../doc/images/Picture5.png
+.. image:: images/Picture5.png
     :alt: Selecting the package
 
     Selecting the package
