@@ -39,7 +39,7 @@ Run DFU
 
 The following procedure involves using a phone or tablet with nRF Connect for mobile installed to run DFU:
 
-#.	Transfer the DFU zip package to your phone.
+1.	Transfer the DFU zip package to your phone.
 
 #.	Power on the device. 
 
@@ -52,23 +52,23 @@ The following procedure involves using a phone or tablet with nRF Connect for mo
 
 #.	Expand the **Secure DFU Service** section. There are two icons to the right of **DFU Control Point**:
 
-  a. Check (x) the box to turn notifications **on**.
+    a. Check (x) the box to turn notifications **on**.
 
-  b. Check (x) the box to the left to set the device to **bootloader (DFU)** mode. 
+    b. Check (x) the box to the left to set the device to **bootloader (DFU)** mode. 
 
 #. Click **OK** when prompted to reset the device to bootloader. 
                                       
-    .. image:: _images/Picture1.png
+    .. image:: images/Picture1.png
         :alt: Activating DFU mode
     
         Activating DFU mode
 
-    .. image:: _images/Picture3.png
+    .. image:: images/Picture3.png
         :alt: Restarting device in DFU mode
 
         Restarting device in DFU mode
 
-The device now enters DFU mode. 
+  The device now enters DFU mode. 
 
 #. Go to the **Scanner** tab and run a new scan. A device with ``<name>DFU`` appears in the list of discovered devices. 
 
@@ -78,7 +78,7 @@ The device now enters DFU mode.
 
 #. Click the DFU icon. 
 
-    .. image:: _images/Picture4.png
+    .. image:: images/Picture4.png
         :alt:Running DFU
 
         Running DFU
@@ -89,9 +89,9 @@ The device now enters DFU mode.
 
 #. Click **OK**.
 
-    .. image:: _images/Picture5.png
+    .. image:: images/Picture5.png
         :alt: Selecting the package
 
         Selecting the package
 
-The package is now uploaded to the device.
+  The package is now uploaded to the device.
