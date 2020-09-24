@@ -31,7 +31,7 @@ Prepare the bootloader
 
 1.	Compile a new bootloader using either Keil μVision or GCC. 
 
-#. Flash the compiled bootloader to the device. Remember to program the Softdevice as well.
+2. Flash the compiled bootloader to the device. Remember to program the Softdevice as well.
 
 
 Run DFU
@@ -41,57 +41,57 @@ The following procedure involves using a phone or tablet with nRF Connect for mo
 
 1.	Transfer the DFU zip package to your phone.
 
-#.	Power on the device. 
+2.	Power on the device. 
 
-#.  Open nRFConnect on your phone.
+3.  Open nRFConnect on your phone.
 
-#.	Click **Scan**. From the available discovered devices, connect to your device. 
+4.	Click **Scan**. From the available discovered devices, connect to your device. 
 
-    .. note::
-        The discovered devices list doesn't automatically refresh when devices stop advertising. If you can't connect to a device from the list, refresh the list to see if the device is still available. 
+.. note::
+     The discovered devices list doesn't automatically refresh when devices stop advertising. If you can't connect to a device from the list, refresh the list to see if the device is still available. 
 
-#.	Expand the **Secure DFU Service** section. There are two icons to the right of **DFU Control Point**:
+5.	Expand the **Secure DFU Service** section. There are two icons to the right of **DFU Control Point**:
 
     a. Check (x) the box to turn notifications **on**.
 
     b. Check (x) the box to the left to set the device to **bootloader (DFU)** mode. 
 
-#. Click **OK** when prompted to reset the device to bootloader. 
+6. Click **OK** when prompted to reset the device to bootloader. 
                                       
-    .. image:: images/Picture1.png
+.. image:: images/Picture1.png
         :alt: Activating DFU mode
     
         Activating DFU mode
 
-    .. image:: images/Picture3.png
+.. image:: images/Picture3.png
         :alt: Restarting device in DFU mode
 
         Restarting device in DFU mode
 
-  The device now enters DFU mode. 
+The device now enters DFU mode. 
 
-#. Go to the **Scanner** tab and run a new scan. A device with ``<name>DFU`` appears in the list of discovered devices. 
+7. Go to the **Scanner** tab and run a new scan. A device with ``<name>DFU`` appears in the list of discovered devices. 
 
-#. Choose your device.
+8. Choose your device.
 
-#. Connect to the new device. 
+9. Connect to the new device. 
 
-#. Click the DFU icon. 
+10. Click the DFU icon. 
 
     .. image:: images/Picture4.png
         :alt:Running DFU
 
         Running DFU
 
-#. Select **Distribution packet (ZIP)**.
+11. Select **Distribution packet (ZIP)**.
 
-#. Navigate to the package that you previously uploaded to your mobile device.
+12. Navigate to the package that you previously uploaded to your mobile device.
 
-#. Click **OK**.
+13. Click **OK**.
 
     .. image:: images/Picture5.png
         :alt: Selecting the package
 
         Selecting the package
 
-  The package is now uploaded to the device.
+ The package is now uploaded to the device.
