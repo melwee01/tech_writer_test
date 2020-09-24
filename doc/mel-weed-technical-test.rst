@@ -9,9 +9,9 @@ Overview
 
 1. _`Provide your public key`.
 
-1. _`Prepare the bootloader`.
+#. _`Prepare the bootloader`.
 
-1. _`Run DFU`. 
+#. _`Run DFU`. 
  
 
 ********
@@ -44,7 +44,7 @@ The following procedure involves using a phone or tablet with nRF Connect for mo
 
 1.	Click **Scan**. From the available discovered devices, connect to your device. 
 
-    .. note:: Note:
+    .. note::
         The discovered devices list doesn't automatically refresh when devices stop advertising. If you can't connect to a device from the list, refresh the list to see if the device is still available. 
 
 1.	Expand the **Secure DFU Service** section. There are two icons to the right of **DFU Control Point**:
@@ -66,8 +66,11 @@ The following procedure involves using a phone or tablet with nRF Connect for mo
 The device now enters DFU mode. 
 
 1. Go to the **Scanner** tab and run a new scan. A device with ``<name>DFU`` appears in the list of discovered devices. 
+
 1. Choose your device.
+
 1. Connect to the new device. 
+
 1. Click the DFU icon. 
 
 .. image:: images/Picture4.png
@@ -76,7 +79,9 @@ The device now enters DFU mode.
     Running DFU
 
 1. Select **Distribution packet (ZIP)**.
+
 1. Navigate to the package that you previously uploaded to your mobile device.
+
 1. Click **OK**.
 
 .. image:: images/Picture5.png
