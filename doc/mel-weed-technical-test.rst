@@ -22,7 +22,7 @@ Provide your public key
 
 Before a **device firmware upgrade** (DFU), you must prepare your device by replacing the existing bootloader with one that uses your own public key.
 
-Copy the `public_key.c` file from where you generated it to `<InstallFolder>\project\bootloader_secure\dfu_public_key.c`.
+Copy the ``public_key.c`` file from where you generated it to ``<InstallFolder>\project\bootloader_secure\dfu_public_key.c``.
 
 Prepare the bootloader
 ----------------------
@@ -65,7 +65,7 @@ The following procedure involves using a phone or tablet with nRF Connect for mo
 
 The device now enters DFU mode. 
 
-1. Go to the **Scanner** tab and run a new scan. A device with `<name>DFU` appears in the list of discovered devices. 
+1. Go to the **Scanner** tab and run a new scan. A device with ``<name>DFU`` appears in the list of discovered devices. 
 1. Choose your device.
 1. Connect to the new device. 
 1. Click the DFU icon. 
