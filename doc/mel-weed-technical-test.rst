@@ -4,6 +4,7 @@ Upgrade with nRF Connect for Mobile
 
 This page explains how to upgrade a device's firmware using `nRF Connect for Mobile <https://www.nordicsemi.com/eng/Products/Nordic-mobile-Apps/nRF-Connect-for-mobile-previously-called-nRF-Master-Control-Panel>`_.
 
+
 Overview
 --------
 
